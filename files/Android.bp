@@ -58,6 +58,8 @@ cc_library {
         "-DHAVE_JPEG",
     ],
 
+    polly: false,
+
     shared_libs: ["libjpeg"],
 
     export_include_dirs: ["include"],
